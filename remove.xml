@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
 
+  <remove-project name="platform/hardware/libhardware" />
+
   <remove-project name="platform/packages/apps/Settings" />
+
+  <remove-project name="platform/prebuilts/misc" />
+
+  <remove-project name="platform/system/core" />
+
 </manifest>

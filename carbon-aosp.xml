@@ -2,6 +2,9 @@
 <manifest>
 
   <project path="android" name="CarbonBeta/android" groups="pdk" remote="carbon" />
+
+  <project path="bionic" name="CarbonBeta/android_bionic" groups="pdk" remote="carbon" />
+
   <project path="build/make" name="CarbonBeta/android_build_make" groups="pdk" remote="carbon">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -17,5 +20,12 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="hardware/libhardware" name="CarbonBeta/android_hardware_libhardware" groups="pdk" remote="carbon" />
+
   <project path="packages/apps/Settings" name="CarbonBeta/android_packages_apps_Settings" groups="pdk-fs" remote="carbon" />
+
+  <project path="prebuilts/misc" name="CarbonBeta/android_prebuilts_misc" groups="pdk" remote="carbon" />
+
+  <project path="system/core" name="CarbonBeta/android_system_core" groups="pdk" remote="carbon" />
+
 </manifest>
