@@ -21,6 +21,15 @@
   </project>
 
   <project path="hardware/libhardware" name="CarbonBeta/android_hardware_libhardware" groups="pdk" remote="carbon" />
+  <project path="hardware/qcom/audio/default" name="CarbonBeta/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="carbon" />
+  <project path="hardware/qcom/bt" name="CarbonBeta/android_hardware_qcom_bt" groups="qcom,pdk" remote="carbon" />
+  <project path="hardware/qcom/bootctrl" name="CarbonBeta/android_hardware_qcom_bootctrl" groups="pdk" remote="carbon" />
+  <project path="hardware/qcom/display" name="CarbonBeta/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="carbon" />
+  <project path="hardware/qcom/gps" name="CarbonBeta/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="carbon" />
+  <project path="hardware/qcom/keymaster" name="CarbonBeta/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="carbon" />
+  <project path="hardware/qcom/media" name="CarbonBeta/android_hardware_qcom_media" groups="qcom,pdk" remote="carbon" />
+  <project path="hardware/qcom/wlan" name="CarbonBeta/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="carbon" />
+  <project path="hardware/ril" name="CarbonBeta/android_hardware_ril" groups="pdk" remote="carbon" />
 
   <project path="packages/apps/Settings" name="CarbonBeta/android_packages_apps_Settings" groups="pdk-fs" remote="carbon" />
 
