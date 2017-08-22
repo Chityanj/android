@@ -17,4 +17,5 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="packages/apps/Settings" name="CarbonBeta/android_packages_apps_Settings" groups="pdk-fs" remote="carbon" />
 </manifest>

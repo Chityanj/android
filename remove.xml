@@ -5,4 +5,5 @@
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
 
+  <remove-project name="platform/packages/apps/Settings" />
 </manifest>
