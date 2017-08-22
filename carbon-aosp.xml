@@ -36,5 +36,6 @@
   <project path="prebuilts/misc" name="CarbonBeta/android_prebuilts_misc" groups="pdk" remote="carbon" />
 
   <project path="system/core" name="CarbonBeta/android_system_core" groups="pdk" remote="carbon" />
+  <project path="system/sepolicy" name="CarbonBeta/android_system_sepolicy" groups="pdk" remote="carbon" />
 
 </manifest>

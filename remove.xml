@@ -22,5 +22,5 @@
   <remove-project name="platform/prebuilts/misc" />
 
   <remove-project name="platform/system/core" />
-
+  <remove-project name="platform/system/sepolicy" />
 </manifest>
