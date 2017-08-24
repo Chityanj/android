@@ -20,6 +20,8 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="bootable/recovery" name="CarbonBeta/android_bootable_recovery" groups="pdk" remote="carbon" />
+
   <project path="external/selinux" name="CarbonBeta/android_external_selinux" groups="pdk" remote="carbon" />
 
   <project path="frameworks/av" name="CarbonBeta/android_frameworks_av" groups="pdk" remote="carbon" />
