@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
+  <project path="android" name="CarbonBeta/android" groups="pdk" remote="carbon" />
+
+  <project path="build/make" name="CarbonBeta/android_build_make" groups="pdk" remote="carbon">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/kati" name="CarbonBeta/android_build_kati" groups="pdk,tradefed" remote="carbon"/>
+  <project path="build/soong" name="CarbonBeta/android_build_soong" groups="pdk,tradefed" remote="carbon">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="frameworks/base" name="CarbonBeta/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+
+  <project path="packages/apps/Settings" name="CarbonBeta/android_packages_apps_Settings" groups="pdk-fs" remote="carbon" />
 
 </manifest>
