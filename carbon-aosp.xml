@@ -3,6 +3,8 @@
 
   <project path="android" name="CarbonBeta/android" groups="pdk" remote="carbon" />
 
+  <project path="bionic" name="CarbonBeta/android_bionic" groups="pdk" remote="carbon" />
+
   <project path="build/make" name="CarbonBeta/android_build_make" groups="pdk" remote="carbon">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
