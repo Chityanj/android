@@ -18,6 +18,8 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="bootable/recovery" name="CarbonBeta/android_bootable_recovery" groups="pdk" remote="carbon" />
+
   <project path="frameworks/base" name="CarbonBeta/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
   <project path="packages/apps/Settings" name="CarbonBeta/android_packages_apps_Settings" groups="pdk-fs" remote="carbon" />
