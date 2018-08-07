@@ -39,8 +39,11 @@
   <remove-project name="device/linaro/hikey-kernel" />
 
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/compile/mclinker" />
   <remove-project name="platform/frameworks/rs" />
 
   <remove-project name="platform/packages/apps/Settings" />
+
+  <remove-project name="platform/prebuilts/build-tools" />
 
 </manifest>
