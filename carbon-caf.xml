@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<project path="vendor/codeaurora/telephony" name="CarbonBeta/android_vendor_codeaurora_telephony" remote="carbon" />
+
 </manifest>
