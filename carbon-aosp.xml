@@ -41,4 +41,5 @@
 
   <project path="prebuilts/build-tools" name="CarbonBeta/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="carbon" />
 
+  <project path="system/core" name="CarbonBeta/android_system_core" groups="pdk" remote="carbon" />
 </manifest>
