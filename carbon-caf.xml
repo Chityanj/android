@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project path="hardware/qcom/audio-caf/msm8996" name="CarbonBeta/android_hardware_qcom_audio" groups="qcom,pdk" remote="carbon" revision="cr-7.0-caf-8996" />
+  <project path="hardware/qcom/bt-caf" name="CarbonBeta/android_hardware_qcom_bt" groups="qcom,pdk" remote="carbon" revision="cr-7.0-caf" />
+  <project path="hardware/qcom/display-caf/msm8996" name="CarbonBeta/android_hardware_qcom_display" groups="qcom,pdk" remote="carbon" revision="cr-7.0-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8996" name="CarbonBeta/android_hardware_qcom_media" groups="qcom,pdk" remote="carbon" revision="cr-7.0-caf-8996" />
+  <project path="hardware/qcom/wlan-caf" name="CarbonBeta/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="carbon" revision="cr-7.0-caf" />
 
-<project path="vendor/codeaurora/telephony" name="CarbonBeta/android_vendor_codeaurora_telephony" remote="carbon" />
+  <project path="system/qcom" name="CarbonBeta/android_system_qcom" groups="qcom" remote="carbon" />
 
+  <project path="vendor/codeaurora/telephony" name="CarbonBeta/android_vendor_codeaurora_telephony" remote="carbon" />
+  <project path="vendor/qcom/opensource/dataservices" name="CarbonBeta/android_vendor_qcom_opensource_dataservices" remote="carbon" />
+  <project path="vendor/qcom/opensource/interfaces" name="CarbonBeta/android_vendor_qcom_opensource_interfaces" remote="carbon" />
 </manifest>
