@@ -39,6 +39,7 @@
   <project path="hardware/qcom/keymaster" name="CarbonBeta/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="carbon" />
   <project path="hardware/qcom/media" name="CarbonBeta/android_hardware_qcom_media" groups="qcom,pdk" remote="carbon" />
   <project path="hardware/qcom/wlan" name="CarbonBeta/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="carbon" />
+  <project path="hardware/ril" name="CarbonBeta/android_hardware_ril" groups="pdk" remote="carbon" />
 
   <project path="packages/apps/Settings" name="CarbonBeta/android_packages_apps_Settings" groups="pdk-fs" remote="carbon" />
 
