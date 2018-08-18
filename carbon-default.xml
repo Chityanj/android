@@ -15,11 +15,11 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <!-- <remote  name="lineage"
+  <remote  name="lineage"
            fetch=".."
            review="review.lineageos.org"
            revision="refs/heads/lineage-16.0"
-           sync-j="8" /> -->
+           sync-j="8" />
 
   <!-- FIRST: Remove unused/forked AOSP Projects -->
   <include name="remove.xml" />
