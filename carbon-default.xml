@@ -36,4 +36,6 @@
 
   <project path="vendor/carbon" name="CarbonBeta/android_vendor_carbon" remote="carbon" />
 
+  <!-- LineageOS Projects -->
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="lineage" />
 </manifest>
