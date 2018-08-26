@@ -37,6 +37,7 @@
   <project path="system/qcom" name="CarbonBeta/android_system_qcom" groups="qcom" remote="carbon" />
 
   <project path="vendor/codeaurora/telephony" name="CarbonBeta/android_vendor_codeaurora_telephony" remote="carbon" />
+  <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" remote="lineage" />
   <project path="vendor/qcom/opensource/dataservices" name="CarbonBeta/android_vendor_qcom_opensource_dataservices" remote="carbon" />
   <project path="vendor/qcom/opensource/interfaces" name="CarbonBeta/android_vendor_qcom_opensource_interfaces" remote="carbon" />
 </manifest>
