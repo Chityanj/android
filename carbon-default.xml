@@ -26,6 +26,7 @@
 
   <!-- Include forked AOSP -->
   <include name="carbon-aosp.xml" />
+    <include name="carbon-x2.xml" />
 
   <!-- Include CAF -->
   <include name="carbon-caf.xml" />
