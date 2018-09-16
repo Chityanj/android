@@ -6,6 +6,6 @@
   <project name="device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="x2" />
   <project name="kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="x2" />
   <project name="proprietary_vendor_leeco" path="vendor/leeco" remote="x2" />
-
-  
+  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="x2" />
+    <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="x2" />
 </manifest>
