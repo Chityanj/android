@@ -8,7 +8,7 @@
            sync-j="8" />
   
   <remote name="x2"
-          fetch="https://github.com/Chityanj"
+          fetch="https://github.com/Chityanj/"
           revision="cr-7.0" />
 
   <remote  name="gh"
