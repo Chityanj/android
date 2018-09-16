@@ -52,9 +52,9 @@
   <project path="hardware/qcom/media" name="CarbonBeta/android_hardware_qcom_media" groups="qcom,pdk" remote="carbon" />
   <project path="hardware/qcom/wlan" name="CarbonBeta/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="carbon" />
   <project path="hardware/ril" name="CarbonBeta/android_hardware_ril" groups="pdk" remote="carbon" />
-  <project path="hardware/qcom/vr" name="LineageOS/android_hardware_qcom_vr" revision="lineage-15.1" />
+  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="x2" />
   <project path="packages/apps/Settings" name="CarbonBeta/android_packages_apps_Settings" groups="pdk-fs" remote="carbon" />
-  <project path="hardware/qcom/thermal" name="LineageOS/android_hardware_qcom_thermal" revision="lineage-15.1" />
+  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="x2" />
   <project path="prebuilts/build-tools" name="CarbonBeta/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="carbon" />
 
   <project path="system/core" name="CarbonBeta/android_system_core" groups="pdk" remote="carbon" />
