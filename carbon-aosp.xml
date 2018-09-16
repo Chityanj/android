@@ -5,7 +5,7 @@
 
   <project path="art" name="CarbonBeta/android_art" groups="pdk" remote="carbon" />
 
-  <project path="bionic" name="Chityanj/android_bionic" groups="pdk" remote="gh" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="x2" />
 
   <project path="build/make" name="CarbonBeta/android_build_make" groups="pdk" remote="carbon">
     <copyfile src="core/root.mk" dest="Makefile" />
