@@ -6,6 +6,10 @@
            review="review.carbonrom.org"
            revision="refs/heads/cr-7.0"
            sync-j="8" />
+  
+  <remote name="x2"
+          fetch="https://github.com/Chityanj"
+          revision="cr-7.0" />
 
   <remote  name="gh"
            fetch="git://github.com/"
@@ -40,3 +44,8 @@
   <!-- LineageOS Projects -->
   <project path="hardware/lineage/interfaces" name="CarbonBeta/android_hardware_lineage_interfaces" remote="carbon" />
 </manifest>
+
+  
+  
+  
+  
