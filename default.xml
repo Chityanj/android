@@ -702,3 +702,5 @@
 
   <!-- RevengeOS -->
   <include name="revengeos-default.xml" />
+
+</manifest>
